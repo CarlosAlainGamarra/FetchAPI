@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: azure;
+}
+
+#but {
+    width: 300px;
+    border-radius: 3px; 
+    background-color: darkorange; 
+    box-shadow: none; 
+    border: none;
+    color: aliceblue;
+    top: -30px;
+    position: relative;
+    
+}
+
+#but:hover {
+    background-color: rgb(236, 46, 46);
+    transition: 0.3s;
+    transform: scale(1.02)
+}
+
+.ima {
+    border-radius: 10px;
+    width: 350px;
+    height: 525px;
+    
+}
+
+.ima:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+#container2 {
+    position: relative;
+    top: -60px;
+}
